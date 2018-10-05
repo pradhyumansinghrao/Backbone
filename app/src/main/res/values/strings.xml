@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Backbone</string>
+    <string name="post_det_post_image">post details post image</string>
+    <string name="splash_screen_image">splash screen image</string>
+    <string name="title_activity_post_details">PostDetails</string>
+    <string name="Choose_post_privacy">Choose post privacy</string>
+    <string name="Public">Public</string>
+    <string name="submit">submit</string>
+    <string name="ed1">ed1</string>
+    <string name="ed2">ed2</string>
+    <string name="name">Name</string>
+    <string name="bio">Bio</string>
+    <string name="cancel">@android:string/cancel</string>
+    <string name="title">title</string>
+    <string name="Private">Private</string>
+    <string name="search">Search&#8230;</string>
+    <string name="update">update</string>
+    <string name="rate_us">Rate us</string>
+    <string name="search2">Search</string>
+    <string name="share">Share</string>
+    <string name="description">description</string>
+    <string name="Publish_Anonymously">Publish Anonymously</string>
+    <string name="note">Note : Click on image to change new image</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_writter_mode">WritterMode</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="facebook_application_id" translatable="false">564976823897450</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">245efc74dd0f8d94ab29863ef90f952f</string>
+
+    <string name="title_activity_second_activiy">Interstitial</string>
+    <string name="msg_welcome">Welcome to Admob. Click on the below button to launch the Interstitial ad.</string>
+    <string name="btn_fullscreen_ad">Show Interstitial Ad</string>
+    <string name="btn_rewarded_video">Show Rewarded Video Ad</string>
+
+    <string name="admob_app_id">ca-app-pub-3939837418303658~3071758772</string>
+    <string name="banner_home_footer">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_full_screen">ca-app-pub-XXXXXXXX~XXXXXXXXXXX</string>
+    <string name="rewarded_video">ca-app-pub-XXXXXXXX~XXXXXXXXXXX</string>
+    <string name="openlinkimage">openlinkimage</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="edit_profile">edit profile</string>
+    <string name="show_post">show post</string>
+</resources>

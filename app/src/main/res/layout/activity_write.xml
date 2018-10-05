@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ReEdit">
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/imagee"
+            android:layout_margin="15dp"
+            android:layout_gravity="center"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/camera_post"
+
+            />
+
+        <LinearLayout
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintTextAppearance="@style/TextInputLayoutHintText"
+                >
+
+                <EditText
+                    android:id="@+id/tit"
+                    android:hint="@string/title"
+                    android:textSize="15sp"
+                    android:inputType="textMultiLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp" tools:targetApi="lollipop"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintTextAppearance="@style/TextInputLayoutHintText"
+                >
+
+                <EditText
+                    android:id="@+id/des"
+                    android:textSize="15sp"
+                    android:inputType="textMultiLine"
+                    android:hint="@string/description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" tools:targetApi="lollipop"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <TextView android:textSize="18sp"
+                android:textColor="@color/cardview_dark_background"
+                android:id="@+id/privacy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/Choose_post_privacy" />
+
+
+            <RadioGroup
+                android:orientation="vertical"
+                android:id="@+id/radio_group"
+                android:background="#e0e0e0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="25dp">
+
+                <RadioButton android:textSize="14sp"
+                    android:gravity="start"
+                    android:id="@+id/public_bt"
+                    android:background="#e0e0e0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:checked="true"
+                    android:text="@string/Public"
+                    android:layout_weight="1.0" />
+
+                <RadioButton
+                    android:textSize="14sp"
+                    android:gravity="start"
+                    android:id="@+id/private_bt"
+                    android:background="#e0e0e0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/Private"
+                    android:layout_weight="1.0" />
+            </RadioGroup>
+
+
+            <CheckBox
+                android:id="@+id/annoymously"
+                android:text="@string/Publish_Anonymously"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/note" />
+
+
+            <Button
+                android:id="@+id/sub"
+                android:background="@drawable/round_button"
+                android:textColor="@color/white"
+                android:layout_marginTop="16dp"
+                android:text="@string/submit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

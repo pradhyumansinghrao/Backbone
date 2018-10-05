@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:post_view="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/tools"
+    android:layout_marginBottom="8dp"
+    post_view:cardElevation="3dp">
+
+    <LinearLayout
+        android:layout_marginTop="3dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/edit_post_image"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            fresco:placeholderImage="@drawable/my_drawable"
+            android:scaleType="fitXY"
+            />
+
+
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_post_title"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="22sp"
+                />
+
+
+            <TextView
+                android:id="@+id/post_views"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="15sp"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:gravity="end"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/edit_e"
+                android:contentDescription="@string/ed1"
+                android:src="@drawable/ic_edit_card"
+                android:layout_width="50dp"
+                android:layout_height="40dp" />
+
+            <ImageView
+                android:contentDescription="@string/ed2"
+                android:id="@+id/delete_e"
+                android:src="@drawable/ic_delete_card"
+                android:layout_width="50dp"
+                android:layout_height="40dp" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

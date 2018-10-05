@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PostUserProfile">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/uPhoto"
+        android:layout_width="160dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <EditText
+            android:inputType="textNoSuggestions|textMultiLine"
+            android:enabled="false"
+            android:textColor="@color/cardview_dark_background"
+            android:id="@+id/uName"
+            android:textAlignment="center"
+            android:hint="@string/name"
+            android:backgroundTint="@color/transp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" tools:targetApi="lollipop"/>
+
+
+
+        <EditText
+            android:inputType="textNoSuggestions|textMultiLine"
+            android:enabled="false"
+            android:textColor="#A9A9A9"
+            android:textSize="15sp"
+            android:id="@+id/uBio"
+            android:textAlignment="center"
+            android:hint="@string/bio"
+            android:backgroundTint="@color/transp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" tools:targetApi="lollipop"/>
+
+        <Button
+            android:id="@+id/user_post"
+            android:background="@drawable/round_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/show_post"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

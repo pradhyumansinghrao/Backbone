@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="odin.backbone.PostDet">
+
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="99"
+        android:title="@string/share"
+        android:icon="@drawable/ic_share"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/action_save"
+        android:orderInCategory="98"
+        android:title="@string/share"
+        android:icon="@drawable/save"
+        app:showAsAction="always"
+        />
+
+</menu>
